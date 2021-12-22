@@ -1,2 +1,2 @@
 # mikkolad.github.io
-Websote
+Website
