@@ -6,6 +6,7 @@
 -->
 <html>
 	<head>
+		<script type="text/javascript" src='assets/js/age.js'> </script>
 		<title>Daniel Mikkola's website</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -27,7 +28,7 @@
 								<h1>Daniel Mikkola</h1>
 																<img src="https://mikkolad.github.io/images/first.png" width="200"/>
                                 <h3>Lund Observatory</h3>
-                                <p> Astronomer, Developer, Teacher, PhD student.<br />
+                                <p> Astronomer, Developer, Teacher, PhD student. <br/>
                                 Studying Galactic dynamics through numerical simulations and astrometric surveys. </p>
 							</div>
 						</div>
@@ -56,7 +57,7 @@
 								</span>
 								-->
 								<span class="image left"><img src="https://mikkolad.github.io/images/photo.jpg" alt="" /></span>
-                                <p> My name is <strong>Daniel Mikkola</strong> I'm a half-Swedish, half-Finnish PhD student in astrophysics at Lund University in Sweden. I'm 27 years old with a BSc in physics and a MSc in astrophysics and greatly enjoy all things programming. I've worked with computational tools all through my academic career which started with planet formation during my bachelor's degree and led onwards to galaxy simulations by my master's. Originally schooled in MATLAB I've since transitioned to mostly utilizing Python 3 with a mixture of C, C++ & HTML sprinkled in along the way. If you are interested in my work, check out my <a href="#research">research</a>.</p>
+                                <p> My name is <strong>Daniel Mikkola</strong> I'm a half-Swedish, half-Finnish PhD student in astrophysics at Lund University in Sweden. I'm <script>document.write(getAge('10/06/1992'));</script> years old with a BSc in physics and a MSc in astrophysics and greatly enjoy all things programming. I've worked with computational tools all through my academic career which started with planet formation during my bachelor's degree and led onwards to galaxy simulations by my master's. Originally schooled in MATLAB I've since transitioned to mostly utilizing Python 3 with a mixture of C, C++ & HTML sprinkled in along the way. If you are interested in my work, check out my <a href="#research">research</a>.</p>
                                 <p>When not working, I spend my time with one of my hobbies. During the year I hike multiple times and camp outdoors overnight. There is no superior way of experiencing nature than living & breating it. While at home, I enjoy gaming,  socializing with friends & going to the gym. </p>
 							</article>
 
@@ -76,7 +77,22 @@
 							<article id="research">
 								<h2 class="major">Research</h2>
 								<span class="image main"><img src="https://mikkolad.github.io/images/pic02.jpg" alt="" /></span>
-								<p>I study Galactic structure and evolution through different projects. My first project has been submitted and regards radial migration of stars. My second project uses statistical methods to infer velocity distributions of Gaia stars without radial velocity measurements. Much more detailed information will be added to this page in the near future!</p>
+								<h3 class="major">Research interests</h3>
+								<p>My research interests revolve around Galactic dynamics, structure, and evolution understood through the use of large galaxy simulations and large astrometric surveys. I am interested in understanding how the motions and positions of stars both today and in the past reveal the complicated histories of galaxies. Below I explain my research projects.</p>
+
+								<h4 class="minor">Project 1 - Published<a href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.495.3295M/abstract" style="color:#33AFFF"> [ADS]</a><br>Radial migration and vertical action in N-body simulations
+								</h4>
+								<span class="image main"><img src="https://mikkolad.github.io/images/p1.png" alt="" /></span>
+								<p>In my first project, we sought out to answer the question "Which stars are radially migrated". We specifically investigate how the extent of the vertical excursions of stars affects the degree to which they undergo radial migration or churning, a process which displaces stars in galactocentric radius. To do this, we create N-body simulations of several different galaxies using packages available within <a href="https://teuben.github.io/nemo/" style="color:#33AFFF">NEMO</a> and conclude that the relationship depends on how strong the galactic disc is relative to its dark matter halo, which provides further insight into discrepancies which existed within the literature.</p>
+
+								<h4 class="minor">Project 2 - Submitted<!--<a href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.495.3295M/abstract" style="color:#33AFFF"> [ADS]</a>--><br>The velocity distribution of white dwarfs in Gaia EDR3
+								</h4>
+								<span class="image main"><img src="https://mikkolad.github.io/images/p2.png" alt="" /></span>
+								<p>The Gaia space telescope has in recent years been able to provide us with astronishing astrometric data of a staggering number of sources within the Milky Way Galaxy. As of its latest release, <a href="https://www.cosmos.esa.int/web/gaia/earlydr3" style="color:#33AFFF">EDR3</a>, it reaches ~1.5 billion stars have proper motions and positions with great precision. We make use of this data to access a large amount of White Dwarfs (WDs), stars which are faint and traditionally difficult to survey. Using their positions and on-sky velocities solely we calculate a maximum likelihood estimate for the velocity distributions in U-V, U-W, and V-W. This provides us with the first velocity distributions of WDs to date. Upon further study of their kinematics, we are also able to detect significant differences in the velocity dispersions of the bifurcated sequences previous identified in the WD <a href="https://sci.esa.int/web/gaia/-/60209-white-dwarfs-in-gaia-s-hertzsprung-russell-diagram" style="color:#33AFFF">colour-magnitude diagram</a>.</p>
+
+								<h4 class="minor">Project 3 - TBA<!--<a href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.495.3295M/abstract" style="color:#33AFFF"> [ADS]</a>--><br>
+								</h4>
+								<p></p>
 							</article>
 
 						<!-- Publications -->
